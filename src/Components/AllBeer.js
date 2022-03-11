@@ -33,13 +33,6 @@ const AllBeer = () => {
                                 <Link className="btn" key={i} to={`/Info/${item._id}`}>Details</Link>
 
                             </div>
-                            {/* <Link to="/ino/"></Link> */}
-                            {/* <div className="s">
-                                <Link key={i} to={`/info/${item._id}`}>
-                                    {item.name},
-                                    {item.image_url},
-                                    {item.tagline}</Link> */}
-                            {/* // <p key{i}>{item.name}</p> */}
                         </div>
                     </div>
 

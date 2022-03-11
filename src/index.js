@@ -14,7 +14,7 @@ ReactDOM.render(
     <React.StrictMode>
       <Routes>
 
-        <Route path='/home' element={<App />} />
+        <Route path='/' element={<App />} />
         <Route path='/AllBeer' element={<AllBeer />} />
         <Route path='/Info/:_id' element={<Info />} />
         <Route path='/Random' element={<Random />} />

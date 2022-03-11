@@ -11,7 +11,7 @@ a{
   color: unset;
 }
 .App{
-  margin: 0 auto;
+  margin:5% auto;
   width: 90%;
 }
 .wrapper{
@@ -24,6 +24,7 @@ a{
   font-weight: 500;
   font-size: 1rem;
   line-height: 24px;
+  margin-bottom: 3%;
 }
 .banner{
 position: absolute;

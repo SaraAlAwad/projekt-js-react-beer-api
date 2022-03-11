@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>home</h1>
+      {/* <h1>home</h1> */}
       <article className='wrapper'>
         <img src={Img} alt="beer" />
         <div className='banner'>

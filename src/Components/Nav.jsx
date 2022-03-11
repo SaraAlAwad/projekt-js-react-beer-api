@@ -4,7 +4,7 @@ import logo from "../imgs/Logo.png"
 const Nav = () => {
     return (
         <nav>
-            <Link to="/home"> <img src={logo} alt="logo" /></Link>
+            <Link to="/"> <img src={logo} alt="logo" /></Link>
         </nav>
     )
 }
