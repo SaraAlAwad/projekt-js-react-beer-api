@@ -5,7 +5,6 @@ import { FaArrowLeft } from "react-icons/fa";
 
 const Info = () => {
     let apiId = useParams('_id')
-    console.log(apiId._id);
     const [beer, setApi] = useState([]);
     useEffect(() => {
         fetch(`https://ih-beers-api2.herokuapp.com/beers/${apiId._id}`)
@@ -14,7 +13,7 @@ const Info = () => {
                 console.log(json)
                 setApi(json)
             })
-    }, [])
+    })
 
     return (
 
