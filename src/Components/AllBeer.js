@@ -16,7 +16,7 @@ const AllBeer = () => {
     }, [])
     return (
         <div>
-            <h1>AllBeer</h1>
+            {/* <h1>AllBeer</h1> */}
             {api.map((item, i) => {
                 return (
 

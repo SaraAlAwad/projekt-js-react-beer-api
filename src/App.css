@@ -6,6 +6,12 @@
   margin: 0;
   font-family: 'Roboto Slab';
 }
+body{
+  width: 390px;
+  border: 1px solid;
+  margin: 3% auto;
+  border-radius: 10px;
+}
 a{
   text-decoration: none;
   color: unset;
@@ -54,6 +60,8 @@ top: 64%;
   height: 33%;
   margin: 3%;
   padding: 3%; 
+  align-items: center;
+  justify-content: center;
 }
 .left{width: 30%;} 
 .left img{width: 100%;} 
